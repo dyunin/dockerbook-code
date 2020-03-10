@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 LABEL maintainer="james@example.com"
-ENV REFRESHED_AT 2015-07-20
+ENV REFRESHED_AT 2020-03-1
 
 RUN apt-get update
 RUN apt-get -y install redis-tools
